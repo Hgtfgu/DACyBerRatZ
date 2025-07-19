@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="shortcut icon" href="./img/LOGODA.jpg" type="image/x-icon" />
+    <style>
+      body{
+      background-image:url(./img/bg.jpg);
+
+      }
+      h1 {
+      color: rgb(213, 1, 30);
+      font-size:50px;
+      text-align: center;
+      }
+      h2{
+      text-align: center;
+      color:azure;
+      }
+      p{
+      text-align: center;
+      font-style:55px;
+      color:blueviolet
+      }
+
+      .content-box {
+  display: flex;
+  justify-content: center; /* Không dùng space-between */
+  align-items: center;
+  gap: 20px; /* Khoảng cách giữa các hộp */
+  padding: 20px;
+  margin: 20px;
+  background: #cce7e8;
+  cursor: pointer;
+  border-radius: 999px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+      .container {
+      width: 100px;
+      height: 30px;
+      background: #ecd3c1;
+      cursor: pointer;
+      font-size: 15px;
+      text-align: center;
+      display: flex;              /* thêm dòng này */
+      justify-content: center;    /* căn giữa ngang */
+      align-items: center;        /* căn giữa dọc */
+      border-radius: 999px;
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 hộp ngang */
+  grid-gap: 20px;                        /* khoảng cách giữa các hộp */
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.grid-item {
+  background: #f0c5eb;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+  font-weight: bold;
+}
+
+
+      
+     .container:hover {
+  background: #4de9ee;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* thêm hiệu ứng nổi bật nếu muốn */
+  transform: scale(1.05); /* phóng nhẹ lên chẳng hạn */
+}
+
+      
+
+      
+      #styke:hover{
+      color:aqua;
+      }
+      .a:hover{
+      animation: alternate-reverse;
+      text-align: center;
+
+
+      }
+      #decoration{
+      text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content-box">
+      <div class="container">
+        <a id="decoration" href="./about.html"><b>tôi đây</b></a>
+      </div>
+      <div class="container">
+        <a id="decoration" href="https://www.facebook.com/vd.anhz" target="_blank"
+          ><b>face nek</b></a
+        >
+      </div>
+      <div class="container"></div>
+    </div>
+    <h1 id="styke">XIN CHÀO</h1>
+    <h2 id="styke">
+      xin chào đã đến với trang web của DACyBerRatZ <br />
+     
+    </h2>
+    </div>
+    <div class="grid-wrapper">
+  <div class="grid-item"><a id="decoration" href="./thuu.html"> Code Lá Thư</a></div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>
+  <div class="grid-item">7</div>
+  <div class="grid-item">8</div>
+  <div class="grid-item">9</div>
+  <div class="grid-item">10</div>
+  <div class="grid-item">11</div>
+  <div class="grid-item">12</div>
+  <div class="grid-item">13</div>
+  <div class="grid-item">14</div>
+  <div class="grid-item">15</div>
+</div>
+
+  </body>
+</html>
